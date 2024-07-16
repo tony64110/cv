@@ -4,12 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        playwrite: ["Playwrite CU", 'cursive'],
-        workss: ["Work Sans", 'sans - serif'],
-        anton: ["Anton SC", 'sans-serif'],
-        DM: ["DM Sans", 'sans-serif']
-      }
-    }
+        orbitron: ['Orbitron', 'sans-serif'],
+      },
+    },
   },
   plugins: [
     require('daisyui'),

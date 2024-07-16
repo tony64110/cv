@@ -24,7 +24,7 @@ export default function Contact() {
                     <> <div  >
                         <div className=' flex justify-center'>
 
-                            <h3 className="  rounded-lg text-center text-white text-2xl w-1/4 p-5">Contact</h3>
+                            <h3 className="  rounded-lg text-center bg-[#15616D] text-[#FDFFFF] font-orbitron text-2xl w-1/4 p-5">Contact</h3>
                         </div>
                         <div className='flex  items-center justify-center gap-6 text-xl ml-10 mt-3 text-white'>
 

@@ -18,13 +18,13 @@ export default function Langues() {
         <div className=' rounded-xl h-60'>
             <div className='flex justify-center'>
 
-                <h3 className="bg-slate-400 rounded-full text-center  text-2xl  w-full p-5 border-white shadow-2xl">Langues</h3>
+                <h3 className="bg-[#15616D] text-[#FDFFFF] font-orbitron rounded-full text-center  text-3xl  w-full p-5 border-white shadow-2xl">Langues</h3>
             </div>
             <div className='flex justify-center items-center gap-4 mt-10'>
                 {langues && langues.map(item =>
                     <div className='flex flex-row gap-4 ml-10 mt-3' key={item._id} >
-                        <h5 className='text-xl'>{item.name}</h5>
-                        <h5 className='text-xl'>: {item.level} </h5>
+                        <h5 className='text-xl  text-[#FDFFFF] font-orbitron'>{item.name}</h5>
+                        <h5 className='text-xl  text-[#FDFFFF] font-orbitron'>: {item.level} </h5>
 
                     </div>
                 )}

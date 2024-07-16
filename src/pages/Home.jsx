@@ -8,26 +8,27 @@ import Presentation from '../Composant/Presentation';
 import Formation from '../Composant/Formations';
 import Nav from '../Composant/Nav'
 import Projet from '../Composant/Project';
+import ParticlesComponent from '../Composant/particles';
 
 export default function Home() {
     return (
-        <div className="App bg-slate-100 ">
-            {/* <html data-theme="garden"> */}
-            <header>
+        <div className="App bg-slate-100 z-10  ">
+            <ParticlesComponent  />
+            <header className='z-10'>
                 <Nav />
             </header>
-            <main className='flex '>
+            <main className='z-10 flex '>
                 <div className='w-1/3'>
 
                     <Presentation />
                 </div>
                 <div className='w-2/3'>
 
-                    <div className='flex flex-col mt-10' >
-                        <div className=' mb-10 h-96 rounded-xl '>
+                    <div className='flex flex-col mt-10 z-10 ' >
+                        <div className=' mb-10 h-96 rounded-xl z-10  '>
                             <div className='flex justify-center '>
 
-                                <Competences />
+                                <Competences  />
                             </div>
                             <div className='flex justify-around items-center'>
                                 <Langues />
@@ -35,16 +36,16 @@ export default function Home() {
                                 <Cenntredinterets />
                             </div>
                         </div>
-                        <div className='flex justify-around items-center mb-10 h-96 rounded-xl'>
+                        <div className='flex justify-around items-center mb-10 h-96 rounded-xl z-10 '>
                             <ExperiencesProfessionnelles />
                         </div>
-                        <div className='flex justify-center '>
+                        <div className='flex justify-center  z-10 '>
                             <Formation />
                         </div>
-                        <div className='flex flex-col justify-around mb-60 gap-10'>
+                        <div className='flex flex-col justify-around mb-60 gap-10 z-10 '>
 
                         </div>
-                        <div>
+                        <div className='flex justify-center z-10 '>
                             <Projet />
                         </div>
                     </div>

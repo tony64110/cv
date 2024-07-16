@@ -20,13 +20,13 @@ export default function Competences() {
         <div className='  rounded-xl h-60 w-2/3'>
             <div className='flex justify-center '>
 
-                <h3 className="bg-slate-400 rounded-full text-center  text-2xl  w-full p-5 border-white shadow-2xl">Compétences</h3>
+                <h3 className="bg-[#15616D] text-[#FDFFFF] font-orbitron rounded-full text-center  text-3xl  w-full p-5  shadow-2xl">Compétences</h3>
 
             </div>
             <div className='flex justify-center items-center gap-4 mt-10'>
                 {competences && competences.map(item =>
                     <div className='flex  gap-4 ' >
-                        <h5 className='text-xl'>{item.skill} </h5>
+                        <h5 className='text-xl  text-[#FDFFFF] font-orbitron'>{item.skill} </h5>
                     </div>)}
             </div>
         </div>

@@ -1,9 +1,10 @@
 import React from 'react'
-
 export default function Nav() {
+
+    
     return (
         <div>
-            <div className='flex justify-between items-center bg-white h-16'>
+            <div  className='flex justify-between items-center h-16'>
                 <div className='font-DM text-2xl font-bold'>
                     Portfolio
                 </div>
