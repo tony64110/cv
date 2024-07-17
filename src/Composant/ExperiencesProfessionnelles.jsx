@@ -20,10 +20,10 @@ export default function ExperiencesProfessionnelles() {
             </div>
             <div className='flex  justify-center items-center gap-10 mt-10' >
                 {experiences && experiences.map(item =>
-                    <div className='flex flex-col items-center gap-4 ' key={item._id} >
-                        <h5 className='text-xl  text-[#FDFFFF] font-orbitron'>Année:{item.annee}</h5>
-                        <h5 className='text-xl  text-[#FDFFFF] font-orbitron'>Entreprise: {item.entreprise} </h5>
-                        <h5 className='text-xl  text-[#FDFFFF] font-orbitron'>Poste: {item.poste} </h5>
+                    <div className='flex flex-col text-center items-center gap-4 ' key={item._id} >
+                        <h5 className='text-xl  text-[#FDFFFF]'> {item.entreprise} </h5>
+                        <h5 className='text-xl  text-[#FDFFFF]'> {item.poste} </h5>
+                        <h5 className='text-xl  text-[#FDFFFF]'>{item.annee}</h5>
 
                     </div>
                 )}

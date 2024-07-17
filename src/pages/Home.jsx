@@ -17,20 +17,20 @@ export default function Home() {
                 <Nav />
             </header>
             <ParticlesComponent  />
-            <main className='z-10 flex '>
-                <div className='w-1/3'>
+            <main className='z-10 flex justify-center items-center flex-col '>
+                <div>
 
                     <Presentation />
                 </div>
-                <div className='w-2/3'>
+                <div className='w-2/3  justify-center items-center'>
 
-                    <div className='flex flex-col mt-10 z-10 ' >
-                        <div className=' mb-10 h-96 rounded-xl z-10  '>
+                    <div className='flex  flex-col  mt-10 z-10 ' >
+                        <div className='justify-center items-center mb-10 h-96 rounded-xl z-10  '>
                             <div className='flex justify-center '>
 
                                 <Competences  />
                             </div>
-                            <div className='flex justify-around items-center'>
+                            <div className='flex justify-center gap-40 items-center'>
                                 <Langues />
 
                                 <Cenntredinterets />

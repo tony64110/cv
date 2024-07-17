@@ -21,10 +21,10 @@ export default function Formation() {
             </div>
             <div className='flex justify-center items-center gap-4 mt-10' >
                 {formation && formation.map(item =>
-                    <div className='flex flex-col items-center gap-4 ' key={item._id} >
-                        <h5 className='text-xl text-[#FDFFFF] font-orbitron'>Année :{item.annee}</h5>
-                        <h5 className='text-xl text-[#FDFFFF] font-orbitron'>Etablissement : {item.etablissement} </h5>
-                        <h5 className='text-xl text-[#FDFFFF] font-orbitron'>Dîplome : {item.diplome} </h5>
+                    <div className='flex flex-col text-center items-center gap-4 ' key={item._id} >
+                        <h5 className='text-xl text-[#FDFFFF]'> {item.diplome} </h5>
+                        <h5 className='text-xl text-[#FDFFFF]'> {item.etablissement} </h5>
+                        <h5 className='text-xl text-[#FDFFFF]'>{item.annee}</h5>
 
                     </div>
                 )}

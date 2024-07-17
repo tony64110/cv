@@ -21,7 +21,7 @@ export default function Projet() {
         <div className=' h-60'>
             <div className='flex justify-center '>
 
-                <h3 className="bg-slate-400 rounded-full text-center  text-2xl  w-full p-5 border-white shadow-2xl">Projets</h3>
+                <h3 className="bg-[#15616D] text-[#FDFFFF] font-orbitron rounded-full text-center  text-3xl  w-full p-5 border-white shadow-2xl ">Projets</h3>
 
             </div>
             <div className='flex flex-row  gap-4'>
