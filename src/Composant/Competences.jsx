@@ -17,16 +17,16 @@ export default function Competences() {
 
 
     return (
-        <div className='  rounded-xl h-60 w-2/3'>
+        <div className='  rounded-xl h-auto w-full sm:w-2/3 p-4'>
             <div className='flex justify-center '>
 
-                <h3 className="bg-[#15616D] text-[#FDFFFF] font-orbitron rounded-full text-center  text-3xl  w-full p-5  shadow-2xl">Compétences</h3>
+                <h3 className="bg-[#15616D] text-[#FDFFFF] font-orbitron rounded-full text-center  text-3xl sm:text-3xl w-full p-4 sm:p-5  shadow-2xl">Compétences</h3>
 
             </div>
-            <div className='flex justify-center items-center gap-4 mt-10'>
+            <div className='flex justify-center items-center gap-4 mt-4 sm:mt-10'>
                 {competences && competences.map(item =>
-                    <div className='flex  gap-4 ' >
-                        <h5 className='text-xl  text-[#FDFFFF] font-orbitron'>{item.skill} </h5>
+                    <div className='flex  gap-4 sm:gap-4 ' >
+                        <h5 className='text-xl sm:text-xl text-[#FDFFFF] font-orbitron'>{item.skill} </h5>
                     </div>)}
             </div>
         </div>

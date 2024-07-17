@@ -13,10 +13,10 @@ import ParticlesComponent from '../Composant/particles';
 export default function Home() {
     return (
         <div className="App bg-slate-100 z-10  ">
-            <ParticlesComponent  />
             <header className='z-10'>
                 <Nav />
             </header>
+            <ParticlesComponent  />
             <main className='z-10 flex '>
                 <div className='w-1/3'>
 
