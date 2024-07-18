@@ -21,21 +21,21 @@ export default function Contact() {
         <>
             <div >
                 {contact.length > 0 &&
-                    <> <div  >
+                    <> <div className='bg-[#15616d75] rounded-xl  w-full p-4 gap-20' >
                         <div className=' flex justify-center'>
 
-                            <h3 className="  rounded-lg text-center bg-[#15616D] text-[#FDFFFF] font-orbitron text-2xl w-1/4 p-5">Contact</h3>
+                            <h3 className="bg-[#15616db5] text-[#FDFFFF] font-orbitron rounded-full text-center  text-3xl sm:text-3xl w-full p-4 sm:p-5 border-white shadow-2xl">Contact</h3>
                         </div>
-                        <div className='flex  items-center justify-center gap-6 text-xl ml-10 mt-3 text-white'>
+                        <div className='flex items-center justify-center gap-10 text-xl  text-white mt-10'>
 
                             <div >
-                                <h5 className='flex flex-row gap-4 '>Tel : {contact[0].tel}</h5>
+                                <h5 className='flex flex-row  '> {contact[0].tel}</h5>
                             </div>
                             <div >
-                                <h5 className='flex flex-row gap-4 '>Mail : {contact[0].email}</h5>
+                                <h5 className='flex flex-row  '> {contact[0].email}</h5>
                             </div>
                             <div >
-                                <h5 className='flex flex-row gap-4 '>Adresse : {contact[0].adresse}</h5>
+                                <h5 className='flex flex-row '> {contact[0].adresse}</h5>
                             </div>
                         </div>
                     </div>

@@ -17,6 +17,7 @@ export default function Home() {
                 <Nav />
             </header>
             <ParticlesComponent  />
+
             <main className='z-10 flex justify-center items-center flex-col '>
                 <div>
 
@@ -48,13 +49,17 @@ export default function Home() {
                         <div className='flex justify-center z-10 '>
                             <Projet />
                         </div>
+
                     </div>
                 </div>
-            </main>
-            <footer className='bg-slate-600 h-44'>
-                <Contact />
+                        <div className='flex z-10'>
 
-            </footer>
+                <Contact />
+                        </div>
+            </main>
+            {/* <footer className='bg-slate-600 h-44 z-10'>
+
+            </footer> */}
 
             {/* </html > */}
         </div >
