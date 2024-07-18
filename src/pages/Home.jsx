@@ -12,14 +12,11 @@ import ParticlesComponent from '../Composant/particles';
 
 export default function Home() {
     return (
-        <div className="App bg-slate-100 z-10  ">
+        <div className="App bg-slate-100 z-10 font-mono ">
             <header className='z-10'>
                 <Nav />
             </header>
-<<<<<<< Updated upstream
-            <ParticlesComponent  />
 
-=======
             <ParticlesComponent id="tsparticles"
                 options={{
                     zIndex: -1,
@@ -27,27 +24,27 @@ export default function Home() {
                 }}
                 className="absolute inset-0"
             />
->>>>>>> Stashed changes
+
             <main className='z-10 flex justify-center items-center flex-col '>
                 <div>
 
                     <Presentation />
                 </div>
-                <div className='w-2/3  justify-center items-center'>
+                <div className='w-2/3 h-auto  justify-center items-center'>
 
-                    <div className='flex  flex-col  mt-10 z-10 ' >
-                        <div className='justify-center items-center mb-10 h-96 rounded-xl z-10  '>
+                    <div className='flex  flex-col gap-10 mt-10 z-10 ' >
+                        <div className='justify-center items-center mb-10 rounded-xl z-10  '>
                             <div className='flex justify-center items-center z-10 '>
 
                                 <Competences  />
                             </div>
-                            <div className='flex justify-center flex-wrap gap-40 items-center'>
+                            <div className='flex justify-around gap-40 items-center'>
                                 <Langues />
 
                                 <Cenntredinterets />
                             </div>
                         </div>
-                        <div className='flex justify-around items-center mb-10 h-96 rounded-xl z-10 '>
+                        <div className='flex justify-center mb-10 h-96 rounded-xl z-10 '>
                             <ExperiencesProfessionnelles />
                         </div>
                         <div className='flex justify-center  z-10 '>

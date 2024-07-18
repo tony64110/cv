@@ -26,13 +26,13 @@ export default function Contact() {
 
                             <h3 className="bg-[#15616db5] text-[#FDFFFF] font-orbitron rounded-full text-center  text-3xl sm:text-3xl w-full p-4 sm:p-5 border-white shadow-2xl">Contact</h3>
                         </div>
-                        <div className='flex items-center justify-center gap-10 text-xl  text-white mt-10'>
+                        <div className='flex items-center justify-center gap-10 text-xl font-mono text-white mt-10'>
 
                             <div >
-                                <h5 className='flex flex-row  '> {contact[0].tel}</h5>
+                                <h5 className='flex flex-row  '> {contact[0].email}</h5>
                             </div>
                             <div >
-                                <h5 className='flex flex-row  '> {contact[0].email}</h5>
+                                <h5 className='flex flex-row  '> {contact[0].tel}</h5>
                             </div>
                             <div >
                                 <h5 className='flex flex-row '> {contact[0].adresse}</h5>

@@ -1,17 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import { url } from './URL'
+import React from 'react'
+
 
 export default function Langues() {
-    const [langues, setLangues] = useState([])
-    async function fetchLangues() {
-        const response = await fetch(url + '/langues')
-        const data = await response.json()
-        setLangues(data)
-        console.log(data);
-    }
-    useEffect(() => {
-        fetchLangues();
-    }, [])
 
     return (
 
@@ -20,14 +10,16 @@ export default function Langues() {
 
                 <h3 className="bg-[#15616D] text-[#FDFFFF] font-orbitron rounded-full text-center  text-3xl sm:text-3xl w-full p-4 sm:p-5 border-white shadow-2xl">Langues</h3>
             </div>
-            <div className='flex flex-col justify-center items-center gap-2 sm:mt-5'>
-                {langues && langues.map(item =>
-                    <div className='flex flex-row gap-4 mt-3 ' key={item._id} >
-                        <h5 className='text-xl  text-[#FDFFFF] '>{item.name}</h5>
-                        <h5 className='text-xl  text-[#FDFFFF]'>:{item.level} </h5>
+            <div className='flex flex-col justify-center items-center gap-2 sm:mt-5 text-white'>
 
-                    </div>
-                )}
+                <div className='flex justify-center items-center w-44 gap-10'>
+                    <img className='w-20 h-20' src="/drapeau/england.png" alt="England" />
+                    <h5> Notion</h5>
+                </div>
+                <div className='flex justify-center items-center w-44 gap-10'>
+                    <img className='w-20 h-20' src="/drapeau/spain.png" alt="Spain" />
+                    <h5> Notion</h5>
+                </div>
 
 
             </div>

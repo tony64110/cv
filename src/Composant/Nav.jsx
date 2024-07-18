@@ -8,7 +8,7 @@ export default function Nav() {
                     Portfolio
                 </div>
                 <a href="http://localhost:3000/admin" className='z-10 text-[#FDFFFF]'>
-                    <button className="btn btn-outline btn-info">Login</button>
+                    <button className="btn btn-outline btn-info font-mono">Login</button>
                 </a>
             </div>
         </div>

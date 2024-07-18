@@ -14,9 +14,9 @@ export default function Formation() {
     }, [])
 
     return (
-        <div className='h-60'>
+        <div className='h-40'>
             <div className='flex justify-center '>
-                <h3 className="bg-[#15616D] text-[#FDFFFF] font-orbitron rounded-full text-center  text-3xl  w-full p-5 border-white shadow-2xl">Formation</h3>
+                <h3 className="bg-[#15616D] text-[#FDFFFF] font-orbitron rounded-full text-center  text-3xl  w-full p-5 border-white shadow-2xl">Formations</h3>
 
             </div>
             <div className='flex justify-center items-center gap-4 mt-10' >

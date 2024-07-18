@@ -8,10 +8,8 @@ import {
     javascript,
     linkedin,
     mongodb,
-    nextjs,
     nodejs,
     react,
-    sass,
     tailwindcss,
 } from "../assets/icons";
 
@@ -51,11 +49,7 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
     },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
+
     {
         imageUrl: nodejs,
         name: "Node.js",
@@ -66,11 +60,7 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
