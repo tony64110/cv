@@ -16,8 +16,18 @@ export default function Home() {
             <header className='z-10'>
                 <Nav />
             </header>
+<<<<<<< Updated upstream
             <ParticlesComponent  />
 
+=======
+            <ParticlesComponent id="tsparticles"
+                options={{
+                    zIndex: -1,
+                    /* other particle options */
+                }}
+                className="absolute inset-0"
+            />
+>>>>>>> Stashed changes
             <main className='z-10 flex justify-center items-center flex-col '>
                 <div>
 
@@ -27,11 +37,11 @@ export default function Home() {
 
                     <div className='flex  flex-col  mt-10 z-10 ' >
                         <div className='justify-center items-center mb-10 h-96 rounded-xl z-10  '>
-                            <div className='flex justify-center '>
+                            <div className='flex justify-center items-center z-10 '>
 
                                 <Competences  />
                             </div>
-                            <div className='flex justify-center gap-40 items-center'>
+                            <div className='flex justify-center flex-wrap gap-40 items-center'>
                                 <Langues />
 
                                 <Cenntredinterets />
