@@ -9,6 +9,7 @@ import Formation from '../Composant/Formations';
 import Nav from '../Composant/Nav'
 import Projet from '../Composant/Project';
 import ParticlesComponent from '../Composant/particles';
+import Footer from '../Composant/Footer';
 
 export default function Home() {
     return (
@@ -61,14 +62,10 @@ export default function Home() {
                 </div>
                         <div className='flex z-10'>
 
-                <Contact />
                         </div>
+                        <Footer />
             </main>
-            {/* <footer className='bg-slate-600 h-44 z-10'>
 
-            </footer> */}
-
-            {/* </html > */}
         </div >
 
     )

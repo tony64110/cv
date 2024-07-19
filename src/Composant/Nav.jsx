@@ -10,6 +10,10 @@ export default function Nav() {
                 <a href="http://localhost:3000/admin" className='z-10 text-[#FDFFFF]'>
                     <button className="btn btn-outline btn-info font-mono">Login</button>
                 </a>
+                <a href="http://localhost:3000/contact" className='z-10 text-[#FDFFFF]'>
+                    <button className="btn btn-outline btn-info font-mono">Contact</button>
+                </a>
+
             </div>
         </div>
     );
