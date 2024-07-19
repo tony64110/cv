@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import Nav from '../Composant/Nav'
+
 import AdminContact from '../Composant/AdminContact'
 import AdminCompetences from '../Composant/AdminCompetences'
 import AdminLangues from '../Composant/AdminLangues'
@@ -35,6 +37,7 @@ export default function Admin() {
 
     return (
         <div className='gap-10'>
+            <Nav />
             <AdminContact />
             <AdminCompetences />
             <AdminLangues />
